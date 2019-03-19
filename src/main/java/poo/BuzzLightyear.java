@@ -40,9 +40,9 @@ public class BuzzLightyear {
         int  capacete = teclado2.nextInt();
 
         if(capacete == 1){
-            System.out.println("Capacete aberto!");
+            System.out.println("Coloque capacete!");
         }else if(capacete == 2){
-            System.out.println("Capacete fechado!");
+            System.out.println("Tire o capacete!");
         }
         else{
             return;
