@@ -28,8 +28,6 @@ public class BuzzLightyear {
             default:
                 System.out.println("Não é um número válido!");
         }
-
-
     }
 
     public void Capacete(){
@@ -48,4 +46,28 @@ public class BuzzLightyear {
             return;
         }
     }
+    public void DisparaLaser(){
+
+        System.out.println("Disparar laser");
+    }
+    public void BracoArticulado(){
+
+        System.out.println("Dar golpes");
+
+    }
+    public void Asas(){
+        Scanner teclado3 = new Scanner(System.in);
+        System.out.print("Como deseja que as asas do Buzz estejam? ");
+        int asas = teclado3.nextInt();
+
+        if(asas == 1){
+            System.out.println("Asas abertas!");
+        }else if(asas == 2){
+            System.out.println("Asas fechadas!");
+        }
+        else{
+            return;
+        }
+    }
+
 }

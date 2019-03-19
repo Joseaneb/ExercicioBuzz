@@ -35,11 +35,25 @@ public class Principal {
             if (boneco == buzz[0]) {
                 BuzzLightyear ex1 = new BuzzLightyear();
                 ex1.FrasesBuzz();
+                System.out.println("");
+
+                BuzzLightyear ex4 = new BuzzLightyear();
+                ex4.DisparaLaser();
+                System.out.println("");
             } else if (boneco == buzz[1]) {
                 BuzzLightyear ex2 = new BuzzLightyear();
                 ex2.Capacete();
-            }else if(boneco == buzz[3]){
+                System.out.println("");
 
+                BuzzLightyear ex5 = new BuzzLightyear();
+                ex5.Asas();
+                System.out.println("");
+            }else if(boneco == buzz[2]){
+                BuzzLightyear ex3 = new BuzzLightyear();
+                ex3.BracoArticulado();
+                System.out.println("");
+                BuzzLightyear ex6 = new BuzzLightyear();
+                ex6.FrasesBuzz();
             }
 
         }
