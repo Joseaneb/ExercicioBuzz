@@ -34,8 +34,8 @@ public class BuzzLightyear {
 
         //Capacete retrátil
         Scanner teclado2 = new Scanner(System.in);
-        System.out.print("Capacete retrátil (Digite 1 para aberto e 2 para fechado): ");
-        int  capacete = teclado2.nextInt();
+        System.out.print("Capacete retrátil (Digite 1 para colocar e 2 para tirar): ");
+        int capacete = teclado2.nextInt();
 
         if(capacete == 1){
             System.out.println("Coloque capacete!");

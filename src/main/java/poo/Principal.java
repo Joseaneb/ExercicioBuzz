@@ -32,7 +32,7 @@ public class Principal {
             System.out.print("Qual boneco do Buzz deseja : ");
             int boneco = teclado.nextInt();
 
-            if (boneco == buzz[0]) {
+            if(boneco == buzz[0]) {
                 BuzzLightyear ex1 = new BuzzLightyear();
                 ex1.FrasesBuzz();
                 System.out.println("");
@@ -40,7 +40,7 @@ public class Principal {
                 BuzzLightyear ex4 = new BuzzLightyear();
                 ex4.DisparaLaser();
                 System.out.println("");
-            } else if (boneco == buzz[1]) {
+            }else if (boneco == buzz[1]) {
                 BuzzLightyear ex2 = new BuzzLightyear();
                 ex2.Capacete();
                 System.out.println("");
